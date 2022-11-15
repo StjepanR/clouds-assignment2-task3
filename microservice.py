@@ -15,4 +15,4 @@ def get_integral(lower, upper):
     return ", ".join([str(x) for x in compute_all(lower, upper)])
 
 if __name__=="__main__":
-    app.run(host='0.0.0.0')
+    app.run()
